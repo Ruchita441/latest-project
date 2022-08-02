@@ -6,9 +6,7 @@ pipeline{
     }
 
     stages{
-
         stage("sonar quality check"){
-            
             steps{
 
                 script{
